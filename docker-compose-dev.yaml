@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+
+    docker-builder:
+        container_name: docker-builder
+        build: .
+        volumes:
+            - "./data-local:/media/docker-builder"
