@@ -5,4 +5,7 @@ RUN install-autonomous.sh install Basics Scripts ScriptsAdvanced ScriptsDevelopm
     yasm zlib1g-dev \
     && rm -rf /var/lib/apt/lists/*
 
+RUN git config --global user.email "builder@container" \
+    && git config --global advice.detachedHead false
+
 WORKDIR /root/builder

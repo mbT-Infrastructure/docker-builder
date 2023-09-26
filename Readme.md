@@ -3,7 +3,7 @@
 This Container image extends the
 [java-nodejs-python image](https://github.com/mbT-Infrastructure/docker-java-nodejs-python).
 
-This image contains some useful packages to build software.
+This image contains some useful packages and configuration to build software.
 
 The workdir ist set to `/root/builder` at the end of the build.
 
