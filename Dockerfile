@@ -1,6 +1,6 @@
-FROM madebytimo/java-nodejs-python
+FROM madebytimo/java-nodejs
 
-RUN install-autonomous.sh install Basics Go Scripts ScriptsAdvanced ScriptsDevelopment \
+RUN install-autonomous.sh install Basics Go Python Scripts ScriptsAdvanced ScriptsDevelopment \
     && apt update -qq && apt install -y -qq autoconf automake build-essential cmake \
     libfreetype6-dev libgnutls28-dev libnuma-dev libsdl2-dev libtool libxcb-shm0-dev \
     libxcb-xfixes0-dev meson ninja-build pkg-config yasm zip zlib1g-dev \
