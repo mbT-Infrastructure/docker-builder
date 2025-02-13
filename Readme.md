@@ -1,7 +1,7 @@
 # Builder image
 
 This Container image extends the
-[java-nodejs-python image](https://github.com/mbT-Infrastructure/docker-java-nodejs-python).
+[java-nodejs image](https://github.com/mbT-Infrastructure/docker-java-nodejs).
 
 This image contains some useful packages and configuration to build software.
 
