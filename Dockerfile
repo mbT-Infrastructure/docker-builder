@@ -10,4 +10,7 @@ RUN install-autonomous.sh install Basics Go Python Scripts ScriptsAdvanced Scrip
     && git config --global user.email "builder@container" \
     && git config --global advice.detachedHead false
 
+ENV PIP_BREAK_SYSTEM_PACKAGES="true"
+ENV PIP_NO_CACHE_DIR="true"
+
 WORKDIR /root/builder
